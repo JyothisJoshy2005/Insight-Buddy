@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InsightBuddy | AI Teaching Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="branding">
+          <img
+            src="assets/logo.png"
+            alt="InsightBuddy logo placeholder"
+            class="logo"
+          />
+          <div>
+            <h1>InsightBuddy</h1>
+            <p>Your AI-powered study companion</p>
+          </div>
+        </div>
+
+        <section class="mode-selector" aria-label="Mode selector">
+          <h2>Select Mode</h2>
+          <div class="mode-buttons">
+            <button class="mode-btn active" data-mode="ask">Ask Doubt</button>
+            <button class="mode-btn" data-mode="topic">Learn Topic</button>
+            <button class="mode-btn" data-mode="quiz">Quiz Mode</button>
+          </div>
+        </section>
+
+        <section class="difficulty-selector">
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            <option value="easy" selected>Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </section>
+
+        <section class="topic-list">
+          <h2>Topics</h2>
+          <ul id="topics"></ul>
+        </section>
+      </aside>
+
+      <main class="chat-panel">
+        <header class="ai-header">
+          <div class="ai-avatar">
+            <img
+              src="assets/avatar.png"
+              alt="InsightBuddy teacher avatar"
+              class="avatar-img"
+            />
+          </div>
+          <div>
+            <h2>InsightBuddy</h2>
+            <span class="ai-tag">AI Tutor</span>
+          </div>
+        </header>
+
+        <section class="chat-area" id="chat-area" aria-live="polite">
+          <!-- Messages appended here -->
+        </section>
+
+        <form class="chat-input" id="chat-form">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your question..."
+            autocomplete="off"
+            required
+          />
+          <button type="button" class="mic-btn" title="Voice feature coming soon">
+            🎤
+          </button>
+          <button type="submit" class="send-btn">Send</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

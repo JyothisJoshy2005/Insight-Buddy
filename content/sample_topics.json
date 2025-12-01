@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phy_gravity",
+    "subject": "Physics",
+    "title": "Gravity Basics",
+    "short_description": "Why objects fall toward Earth",
+    "core_explanation": "Gravity is the attractive force between objects with mass. The larger the mass and the closer the objects are, the stronger the pull."
+  },
+  {
+    "id": "bio_cells",
+    "subject": "Biology",
+    "title": "Cells 101",
+    "short_description": "Building blocks of living things",
+    "core_explanation": "Cells are the smallest structural and functional units of life. They contain organelles that perform specific tasks to keep organisms alive."
+  },
+  {
+    "id": "math_linear",
+    "subject": "Mathematics",
+    "title": "Linear Equations",
+    "short_description": "Solving for the unknown",
+    "core_explanation": "A linear equation models the relationship between variables with a straight line. Solving it means finding the value of the unknown that makes both sides equal."
+  },
+  {
+    "id": "chem_states",
+    "subject": "Chemistry",
+    "title": "States of Matter",
+    "short_description": "Solid, liquid, gas basics",
+    "core_explanation": "Matter exists mainly as solids, liquids, or gases. The state depends on how closely the particles are packed and how much energy they possess."
+  }
+]
+
+

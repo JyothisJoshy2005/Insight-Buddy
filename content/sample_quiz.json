@@ -1,0 +1,40 @@
+[
+  {
+    "topicId": "phy_gravity",
+    "question": "Who described gravity as a universal law?",
+    "options": ["Isaac Newton", "Nikola Tesla", "Marie Curie"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "topicId": "phy_gravity",
+    "question": "What increases gravitational force between two objects?",
+    "options": ["More distance", "Less mass", "Greater mass"],
+    "answer": "Greater mass"
+  },
+  {
+    "topicId": "bio_cells",
+    "question": "Which organelle is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome"],
+    "answer": "Mitochondria"
+  },
+  {
+    "topicId": "math_linear",
+    "question": "What does the slope of a line represent?",
+    "options": ["Rate of change", "Y-intercept", "Area under the curve"],
+    "answer": "Rate of change"
+  },
+  {
+    "topicId": "chem_states",
+    "question": "Which state of matter has a fixed shape?",
+    "options": ["Solid", "Liquid", "Gas"],
+    "answer": "Solid"
+  },
+  {
+    "topicId": "chem_states",
+    "question": "What causes water to change from liquid to gas?",
+    "options": ["Cooling", "Heating", "Mixing"],
+    "answer": "Heating"
+  }
+]
+
+
